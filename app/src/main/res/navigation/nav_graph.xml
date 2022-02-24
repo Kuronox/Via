@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashActivity">
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.example.splash.SplashActivity"
+        android:label="SplashActivity" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.splash.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.example.splash.RegisterActivity"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <activity
+        android:id="@+id/dashboardSord"
+        android:name="com.example.splash.DashboardSord"
+        android:label="activity_dashboard_sord"
+        tools:layout="@layout/activity_dashboard_sord" />
+    <activity
+        android:id="@+id/callIncoming"
+        android:name="com.example.splash.CallIncoming"
+        android:label="activity_call_incoming"
+        tools:layout="@layout/activity_call_incoming" />
+    <activity
+        android:id="@+id/agentes_Service"
+        android:name="com.example.splash.Agentes_Service"
+        android:label="activity_agentes_service"
+        tools:layout="@layout/activity_agentes_service" />
+</navigation>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Via</string>
+    <string name="BotonLogin">Login</string>
+    <string name="tv1">Login</string>
+    <string name="BotonSolicitar"></string>
+    <string name="tv2">Solicitar</string>
+</resources>
